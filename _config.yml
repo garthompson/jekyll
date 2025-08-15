@@ -13,13 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Gar's Place
-email: garmail@gmail.com
+title: Gar's Jekyll Site
 description: >- # this means to ignore newlines until "baseurl:"
   Random thoughts, mutterings and musings.
+
+baseurl: jekyll
+email: garmail@gmail.com
+enable_copy_code_button: true
 github_username: garthompson
+logo: assets/images/88x88.png
+masthead_title: "Gar's scratch-pad"
 minimal_mistakes_skin: air
+repository: garthompson/jekyll
 search: true
+site-locale: en-GB
+url: https://garthompson.github.io/
 
 # Build settings
 markdown: kramdown
@@ -28,7 +36,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Dublin
 
 include:
   - _pages
@@ -58,18 +66,20 @@ author:
   name   : "Gar Thompson"
   avatar : "/assets/images/gravatar.jpeg"
   bio    : "Yet another software engineer"
+  location: "Kerry, Ireland"
 
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-square-linkedin"
       url: "https://www.linkedin.com/in/garthompson/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-square-github"
       url: "https://github.com/garthompson"
     - label: "Bluesky"
-      icon: "fab fa-fw fa-bluesky"
+      icon: "fab fa-fw fa-square-bluesky"
       url: "https://bsky.app/profile/gar-t.bsky.social"
+  since: 2025
 
 defaults:
   # _posts
@@ -77,12 +87,13 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
       author_profile: true
-      read_time: true
       comments: true
-      share: true
+      layout: single
+      read_time: true
       related: true
+      share: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
