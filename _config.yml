@@ -79,7 +79,6 @@ footer:
     - label: "Bluesky"
       icon: "fab fa-fw fa-square-bluesky"
       url: "https://bsky.app/profile/gar-t.bsky.social"
-  since: 2025
 
 defaults:
   # _posts
