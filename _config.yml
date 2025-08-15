@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Gar Thompson
+title: Gar's Place
 email: garmail@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Random thoughts, etc.
+  Random thoughts, mutterings and musings.
 github_username: garthompson
 minimal_mistakes_skin: air
 search: true
@@ -56,8 +56,8 @@ plugins:
 
 author:
   name   : "Gar Thompson"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "TODO - bio"
+  avatar : "/assets/images/gravatar.jpeg"
+  bio    : "Yet another software engineer"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
