@@ -1,5 +1,6 @@
 ---
 title: "Creating a Jekyll stie"
+date: 2025-08-15
 excerpt_separator: "<!--more-->"
 categories:
   - blog
